@@ -24,12 +24,16 @@
    ```bash
    git clone https:
 
-https://github.com/user-attachments/assets/a0b9b4da-20f9-4683-9b0e-922b8c468da6
-
 //github.com/your-username/DataStructureOn.git
 
 ## here are the representations:
 
  ![image](https://github.com/user-attachments/assets/55f49d0b-7b74-49c2-8f9d-df232b11c3d5)
+
+
+## Sample representation of AVL trees:
+
+https://github.com/user-attachments/assets/8e09fe45-c0ad-419f-a83f-2d47ad94b21f
+
 
  
