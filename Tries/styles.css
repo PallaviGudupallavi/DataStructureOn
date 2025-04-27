@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  #1e1e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+button#insert-button { background-color: #152946; }
+button#search-button { background-color:#152946; }
+button#prefix-button { background-color: #152946; }
+button#reset-button { background-color: #f44336; }
+
+button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.trie-representation {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.node {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #add8e6;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.node.inserted {
+    background-color: #90ee90;
+    color: #000;
+    transform: scale(1.1);
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
+}
